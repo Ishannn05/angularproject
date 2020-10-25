@@ -6,5 +6,16 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'AngularProject';
+  public currentNavElement: string = "Recipes";
+
+  public onNavClicked(textContent: string): void {
+    if(textContent === "Recipes"){
+      this.currentNavElement = textContent;
+      // console.log(this.currentNavElement);
+    }
+    else if(textContent === "Shopping List"){
+      this.currentNavElement = textContent;
+      // console.log(this.currentNavElement);
+    }
+  }
 }
