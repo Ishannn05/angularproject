@@ -11,6 +11,7 @@ export class ShoppingListComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    console.log("Shopping list has been initialized.");
   }
 
   public onIngredientAdded(ingredient:Ingredient): void {
