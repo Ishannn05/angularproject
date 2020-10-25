@@ -11,11 +11,11 @@ export class AppComponent {
   public onNavClicked(textContent: string): void {
     if(textContent === "Recipes"){
       this.currentNavElement = textContent;
-      // console.log(this.currentNavElement);
+      // console.log(this.currentNavElement); //Debug message
     }
     else if(textContent === "Shopping List"){
       this.currentNavElement = textContent;
-      // console.log(this.currentNavElement); //Debug messages
+      // console.log(this.currentNavElement); //Debug message
     }
   }
 }
