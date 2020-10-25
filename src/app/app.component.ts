@@ -15,7 +15,7 @@ export class AppComponent {
     }
     else if(textContent === "Shopping List"){
       this.currentNavElement = textContent;
-      // console.log(this.currentNavElement);
+      // console.log(this.currentNavElement); //Debug messages
     }
   }
 }
